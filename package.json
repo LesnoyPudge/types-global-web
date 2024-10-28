@@ -1,0 +1,23 @@
+{
+    "name": "@lesnoypudge/types-global-web",
+    "version": "1.0.0",
+    "description": "lesnoypudge's types-global-web",
+    "types": "./src/index.d.ts",
+    "scripts": {
+        "deploy": "git add . && git commit -m 'update' && git push && git status",
+        "publish": "npm publish --access public"
+    },
+    "author": "LesnoyPudge",
+    "license": "ISC",
+    "keywords": [
+        "lesnoypudge",
+        "types-global-web"
+    ],
+    "dependencies": {
+        "types-spring": "^2.2.2",
+        "typescript": "^5.6.3"
+    },
+    "devDependencies": {
+        "@lesnoypudge/formatter-config": "^4.0.0"
+    }
+}
